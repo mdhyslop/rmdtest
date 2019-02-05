@@ -2,7 +2,9 @@
 title: "test rmd"
 author: "MDH"
 date: "2/4/2019"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
